@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cinzel+Decorative:wght@400;700;900&family=Sekuya&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-cinzel {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+.font-ballet {
+  font-family: 'Ballet', cursive;
+}
+
+.font-sekuya {
+  font-family: 'Sekuya', cursive, display;
+}
+
