@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LiquidBackground from "@/components/LiquidBackground";
 
 export const metadata: Metadata = {
   title: "isamkids — Coming Soon",
@@ -16,7 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full bg-black text-white antialiased">
-      <body className="min-h-full flex flex-col bg-black text-white selection:bg-white selection:text-black">
+      <body className="min-h-full flex flex-col text-white selection:bg-white selection:text-black">
+        <LiquidBackground />
         {children}
       </body>
     </html>

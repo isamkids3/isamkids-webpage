@@ -2,7 +2,7 @@ export default function Home() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="relative min-h-screen flex flex-col justify-between items-center bg-black text-white px-6 py-10 selection:bg-white selection:text-black font-sans">
+    <div className="relative min-h-screen flex flex-col justify-between items-center text-white px-6 py-10 selection:bg-white selection:text-black font-sans">
       {/* Background aesthetic touches */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.03)_0%,transparent_70%)] pointer-events-none" />
 
